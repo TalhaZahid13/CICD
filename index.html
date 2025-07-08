@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sap Portal</title>
+    <link rel="shortcut icon" type="image/png" href="/html.png"/>
+    <style>
+        body {
+            background-image: url('/Riphah.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        form {
+            background-color: cyan;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+        }
+
+        .box {
+            display:table;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            color: red;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5d68dbef;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .footer{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            font-style: bold;
+            color: rgb(0, 0, 0);
+        }
+        #null{
+            background-color: black;
+            color: red;
+        }
+        #nall{
+            background-color: green;
+            color: white;
+        }
+        #password{
+            background-color: cyan;
+            color: red;
+        }
+        #sapid{
+            background-color: cyan;
+            color: black;
+        }
+        #pass{
+            background-color: cyan;
+        }
+        #language{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Wellcome to Riphah Portal</h1> <br>
+        <div class="box">
+        Sapid: <input type="number" id="sapid" placeholder="Please Enter Your Sapid" required><br>
+        </div>
+        <div id="password">
+            Password: <input type="password" id="pass" placeholder="Enter Your Password" required><br>
+        </div>
+        <div>
+            <br>
+            Language <select name="language" id="language" style="font-size: normal;">
+        </div>
+        <div id="null">
+            <option id="null"></option>
+            <option id="null" value="EN-English">EN-English</option>
+            <option  id="nall" value="DE-Deutsh">DE-Deutsh</option>
+            </select> <br> <br>
+        <button type="submit" >"New Student"</button>
+    </form>
+    <br>
+    <p2 class="footer">This Page is created by Muhammad Talha</p2>
+</body>
+</html>
